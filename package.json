@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://JoseManuelMunozManzano.github.io/administrar_citas_js",
   "scripts": {
+    "predeploy": "npm run build:prod ",
+    "deploy": "gh-pages -d build",
     "build:watch": "webpack --watch",
     "build:dev": "concurrently --kill-others \"npm run build:watch\" \"webpack serve\"",
     "build:prod": "webpack --config webpack.config.prod.js"
