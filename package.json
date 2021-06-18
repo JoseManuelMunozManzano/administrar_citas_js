@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "http://JoseManuelMunozManzano.github.io/administrar_citas_js",
+  "homepage": "https://JoseManuelMunozManzano.github.io/administrar_citas_js",
   "scripts": {
     "predeploy": "npm run build:prod ",
     "deploy": "gh-pages -d build",
